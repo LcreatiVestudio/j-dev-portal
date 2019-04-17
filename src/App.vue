@@ -36,7 +36,7 @@ export default Vue.extend({
 html, body {
   height: 100%;
   background-color: #333;
-  background: url('./assets/background.png') center center fixed no-repeat;
+  background: url('./assets/images/background.jpg') center center fixed no-repeat;
   box-shadow: inset 0px 20px 20px rgba(1, 1, 1, .9);
 }
 
@@ -49,7 +49,7 @@ body {
 <template>
   <div id="app" class="mx-auto d-flex h-100 flex-column">
     <!-- Meta Tags -->
-    <title>{{globalData.about.corporate_name}} | Under Maintenanced</title>
+    <title>{{globalData.about.name}} | Under Maintenanced</title>
     <meta name="author" :content="`${globalData.about.name} | Under Maintenanced`">
     <meta name="description" :content="globalData.ctx.main_text">
 

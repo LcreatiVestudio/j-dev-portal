@@ -1,0 +1,22 @@
+{
+	"root": true,
+	"env": {
+		"node": true
+	},
+	"extends": [
+		"plugin:vue/essential",
+		"eslint:recommended",
+		"@vue/typescript"
+	],
+	"rules": {
+		"no-unused-vars": "off",
+        "space-before-function-paren": "off",
+        "no-trailing-spaces": "off",
+        "no-console": "off",
+        "no-const-assign": "error",
+        "no-useless-constructor": "off"
+	},
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser"
+	}
+}

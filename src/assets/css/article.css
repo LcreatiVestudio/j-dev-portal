@@ -1,0 +1,7 @@
+/* List of Articles */
+#list, #article {
+	margin-bottom: 4em;
+}
+#list a{
+	text-decoration: none;
+}
