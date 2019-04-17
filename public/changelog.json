@@ -1,0 +1,10 @@
+[
+  {
+    "version": "1.0.0-SNAPSHOT",
+    "meta": "Initial Commit"
+  },
+  {
+    "version": "1.0.1-SNAPSHOT",
+    "meta": "Added some configuration for package.json. Added a bunch of compiler dependencies. Added Webpack configuration. Set up environment for pagination."
+  }
+]

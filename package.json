@@ -23,10 +23,11 @@
     "git:deploy": "git add . && git commit -am \"Codeship Deploy from NPM\" && git push deploy",
     "webpack:dev": "webpack-dev-server --inline --hot",
     "webpack:build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.prod.js --progress --hide-modules",
-    "webpack:predeploy": "npm run webpack:build"  
+    "webpack:predeploy": "npm run webpack:build"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "moment": "^2.24.0",
     "page": "^1.11.4",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
