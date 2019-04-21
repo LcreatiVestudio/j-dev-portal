@@ -1,11 +1,11 @@
-<style src="./css/footer.css"></style>
+<style src="../assets/css/footer.css"></style>
 <template>
 <footer class="footer mt-auto">
   <div class="container-fluid">
     <div class="row py-3" :style="{backgroundColor: footer_color}">
       <div class="col-lg-7 offset-lg-1 my-auto" id="copy-right">
         <span :title="copyright">
-          <a href="https://github.com/skymunn" target="_blank" rel="noopener norefferer">&copy;</a> {{project_year_start}}-{{yearNow}} {{project_name}} | {{corporate_name}}. All right reserved.
+          <a href="https://github.com/jDevxyz/j-dev-portal/" target="_blank" rel="noopener norefferer">&copy;</a> {{project_year_start}}-{{yearNow}} {{project_name}} | {{corporate_name}}. All right reserved.
         </span>
       </div>
       <div class="col-lg-3 text-center align-middle my-auto">
@@ -54,7 +54,7 @@ export default Vue.extend({
   data() {
     return {
       yearNow: date.getFullYear(),
-      copyright: "Made by github/skymunn. Click over (C) to see my profile!"
+      copyright: "All Copyright belong to respectful owner, check the GitHub repository for more info!"
     }
   }
 })
