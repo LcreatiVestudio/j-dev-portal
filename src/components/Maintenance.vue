@@ -1,10 +1,10 @@
-<style src="./css/filler.css"></style>
+<style src="../assets/css/filler.css"></style>
 <template>
 <section class="filler" id="filler">
   <div class="container">
     <div v-if="discord_frame.length > 0" class="row">
       <div class="col-lg-8 my-auto">
-        <h1 class="display-3 mt-5" id="main-text-half">{{main_text}}</h1>
+        <h1 class="display-3 mt-5 maintext" id="main-text-half">{{main_text}}</h1>
         <hr id="border-half">
         <h3 id="sub-text-half">{{sub_text}}</h3>
       </div>
