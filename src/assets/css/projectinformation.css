@@ -1,0 +1,39 @@
+@import url('./layout.css');
+
+.profile {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.section p {
+  margin-top: 2rem;
+}
+
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+  margin-top: 3rem;
+}
+
+.section-name {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.section-role {
+  margin-bottom: .3rem;
+}
+.section-personalize {
+  font-weight: 300;
+}
