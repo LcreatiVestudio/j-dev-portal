@@ -1,9 +1,5 @@
-declare module '*.vue' {
-  import Vue from 'vue'
-  export default Vue
-}
-
-import Vue, { VNode } from 'vue'
+import Vue, { VNode, FunctionalComponentOptions, Component } from 'vue'
+import { PropsDefinition } from 'vue/types/options';
 
 declare global {
   namespace JSX {

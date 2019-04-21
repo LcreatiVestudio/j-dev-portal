@@ -1,5 +1,5 @@
 # J-Dev Portal
-WIP
+A frontend source code for J-Dev Portal website
 
-# Boilerplate and stuff
-Credit goes to [Skymunn](https://github.com/skymunn/)
+# Special Thanks
+[maintenanced-template](https://github.com/skymunn/maintenanced-template) credit goes to [Skymunn](https://github.com/skymunn/)
